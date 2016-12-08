@@ -1,0 +1,522 @@
+/*--------------- Start navigation-menu ------------------*/
+
+.navbar-default {
+     background: linear-gradient(rgba(95,95,95,0.7), rgba(204,204,204,0.3));
+     border: none;
+}
+.navbar-default .navbar-nav>.active>a{
+background-color: #CA4C4C;
+}
+.navbar-brand {
+width: 300px;
+}
+.navbar-default .navbar-nav>li>a {
+    font-family: Lato-Regular;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+	padding: 9px 17px;
+	transition: 0s;
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    border-bottom: 2px solid #CA4C4C;
+}
+.btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
+    background-color: #16a086;
+    border-color: #16a086;
+}
+.btn-primary:active:focus, .btn-primary:active:hover ,.btn-primary:hover ,.btn-primary:focus{
+    background-color: #16a086;
+    border-color: #16a086;
+	}
+
+#navigation-menu h4{
+ font-family: Lato-Bold;
+    font-size:20px;
+    margin-left: 60px;
+	margin-top: 16px;
+
+	line-height: 0;
+}
+#navigation-menu small{
+    font-family: Lato-Regular;
+    font-size:14px;
+    margin-left: 12px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+ border-color: transparent;
+}
+
+
+/*--------------- End navigation-menu ------------------*/
+
+
+/*--------------- Start carousel ------------------*/
+
+.carousel-caption {
+    bottom: 185px;
+}
+.main-container {
+  padding: 0;
+}
+.skyblue {
+	background: url("../images/2nd%20slide.png");
+}
+.skyblue4 {
+	background: url("../images/4th%20slide.png");
+}
+.deepskyblue {
+	background: url("../images/1st%20slide.jpg");
+}
+.darkerskyblue5 {
+	background: url("../images/5th%20slide.jpg");
+}
+.darkerskyblue {
+	background: url("../images/3rd%20slide.jpg");
+}
+.carousel-indicators {
+	bottom: 0;
+}
+.carousel-control.right,
+.carousel-control.left {
+	background-image: none;
+}
+.carousel .item {
+    min-height: 633px;
+    height: 100%;
+    width: 100%;
+}
+.carousel-caption h3,
+.carousel .icon-container,
+.carousel-caption button {
+	background-color: #CA4C4C;
+}
+.carousel-caption h3 {
+	padding: 20px 10px;
+    font-size: 40px;
+    margin-top: -15px;
+}
+.carousel .icon-container {
+	display: inline-block;
+	font-size: 25px;
+	line-height: 25px;
+	padding: 1em;
+	text-align: center;
+	
+	border-radius: 50%;
+}
+.carousel-caption {
+    text-shadow: none;
+}
+.carousel-caption button {
+	border-color: #363638;
+	margin-top: 1em; 
+}
+
+/* Animation delays */
+.carousel-caption h3:first-child {
+	-webkit-animation-delay: 1s;
+	animation-delay: 1s;
+}
+.carousel-caption h3:nth-child(2) {
+	-webkit-animation-delay: 2s;
+	animation-delay: 2s;
+}
+.carousel-caption button {
+	-webkit-animation-delay: 3s;
+	animation-delay: 3s;
+}
+
+/*--------------- End carousel ------------------*/
+
+
+/*--------------- Start about ------------------*/
+
+#about{
+    margin-top: 0px;
+    background: #81D4FA;
+    padding-bottom: 50px;
+}
+#about h1{
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    font-size: 45px;
+}
+#about .about-text{
+    background: #fafafa;
+    padding: 35px 40px;
+    border-radius: 3px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2);
+    transition: box-shadow .25s;
+}
+#about .about-text:hover{
+    transition: box-shadow .25s;
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#about .about-text p{
+    font-size: 15px;
+}
+#about .about-image{
+    position: relative;
+}
+#about .about-image .cloud1 img{
+    width: 14%;
+    position: absolute;
+    top: 37px;
+    left: 138px;
+}
+#about .about-image .cloud2 img{
+    width: 28%;
+    position: absolute;
+    top: 93px;
+    left: 5px;
+    -webkit-animation-name: cloud;
+      animation-name: cloud;
+    -webkit-animation-duration: 2.5s;
+          animation-duration: 2.5s;
+    -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+    -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+          animation-direction: normal;
+    -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+#about .about-image .cloud3 img{
+    width: 28%;
+    position: absolute;
+    top: 70px;
+    left: 290px;
+    -webkit-animation-name: cloud;
+      animation-name: cloud;
+    -webkit-animation-duration: 2.5s;
+          animation-duration: 2.5s;
+    -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+    -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
+    -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+          animation-direction: normal;
+    -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+#about .about-image .cloud4 img{
+    width: 14%;
+    position: absolute;
+    top: 270px;
+    left: 111px;
+}
+#about .about-image .cloud5 img{
+    width: 14%;
+    position: absolute;
+    top: 170px;
+    left: 380px;
+}
+#about .about-image .ballon1 img{
+    width: 30%;
+    position: absolute;
+    top: 76px;
+    left: 150px;
+    -webkit-animation-name: myframes;
+      animation-name: myframes;
+    -webkit-animation-duration: 3.5s;
+          animation-duration: 3.5s;
+    -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+    -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+    -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+          animation-direction: normal;
+    -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+#about .about-image .ballon2 img{
+    width: 16%;
+    position: absolute;
+    top: 190px;
+    left: 40px;
+    -webkit-animation-name: myframes;
+      animation-name: myframes;
+    -webkit-animation-duration: 3.5s;
+          animation-duration: 3.5s;
+    -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+    -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+    -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+          animation-direction: normal;
+    -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+#about .about-image .ballon3 img{
+    width: 16%;
+    position: absolute;
+    top: 227px;
+    left: 350px;
+    -webkit-animation-name: myframes;
+      animation-name: myframes;
+    -webkit-animation-duration: 3.5s;
+          animation-duration: 3.5s;
+    -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+    -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+          animation-direction: normal;
+    -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+   /*--------------- Start balloon animation ------------------*/
+
+
+
+
+@-webkit-keyframes myframes {
+  0%,100% {
+    -webkit-transform: translate(0px,0px);
+            transform: translate(0px,0px);
+  }
+  40% {
+    -webkit-transform: translate(10px,10px);
+            transform: translate(10px,10px);
+  }
+  70% {
+    -webkit-transform: translate(5px,15px);
+            transform: translate(5px,15px);
+  }
+}
+@-webkit-keyframes cloud {
+  0%,100% {
+    -webkit-transform: translate(0px,0px);
+            transform: translate(0px,0px);
+  }
+  40% {
+    -webkit-transform: translate(5px,-5px);
+            transform: translate(5px,-5px);
+  }
+  70% {
+    -webkit-transform: translate(2.5px,-2.5px);
+            transform: translate(2.5px,-2.5px);
+  }
+}
+
+
+   /*--------------- End balloon animation ------------------*/
+
+
+
+/*--------------- End about ------------------*/
+
+
+/*--------------- start portfolio -----------*/
+
+#portfolio h1{
+    margin-top: 50px;
+}
+#portfolio .nav-pills>li>a {
+    transition: all 0.6s ease-in-out;
+    color: #000;
+}
+#portfolio .nav-pills>li>a {
+    border-radius: 0px;
+}
+#portfolio .nav {
+    margin-left: 335px;
+    margin-top: 30px;
+}
+#portfolio .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    background: transparent;
+    border-bottom: 2px solid #CA4C4C;
+    color: #000;
+}
+
+
+      /*--------------- start portfolio_content -----------*/
+
+#portfolio_content{
+    margin-top: 50px;
+    transition: 0.5s;
+}
+#portfolio_content .thumbnail::after{
+    font-family: FontAwesome;
+    font-size: 80px;
+    color: #fff;
+    padding-left: 18px;
+    padding-top: 74px;
+    content: "";
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    background: rgba(202,76,76,0.7);
+    top: 5px;
+    left: 20px;
+    /*transition:all 0.7s ease-in-out;*/
+    transform-origin: 0% 0%;
+    transform: scaleY(0);
+    transition: all 0.7s cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+#portfolio_content .thumbnail:hover::after{
+    transform: scaleY(1);
+}
+#portfolio_content .col-md-4,.col-md-6{
+    margin-top: 20px;
+}
+#portfolio_content .thumbnail{
+    height: 260px;
+}
+#portfolio_content .thumbnail a{
+    
+}
+#portfolio_content .thumbnail img{
+    height: 100%;
+    width: 100%;
+    transition: all 0.6s ease-in-out;
+}
+#portfolio_content a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
+    border-color: #ddd;
+}
+.captn h3{
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+.captn p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #777;
+    font-style: italic;
+}
+.captn a{
+    text-decoration: none;
+}
+      /*--------------- end portfolio_content -----------*/
+
+
+
+
+
+/*--------------- end portfolio-----------*/
+
+
+
+
+
+/*--------------- Start services ------------------*/
+
+#services{
+    background: #CA4C4C;
+    padding: 50px 0px;
+}
+#services h1{
+    color: #fff;
+    font-size: 115px;
+}
+#services .services_common{
+    height: 200px;
+    margin: 30px 0px;
+    cursor: pointer;
+}
+#services .services_common .col-sm-4{
+    height: 200px;
+    background: #fff;
+}
+#services .services_common .col-sm-8{
+    height: 200px;
+    background: #484848;
+}
+#services .services_common .services_image{
+    
+}
+#services .services_common .services_image img{
+    width: 65%;
+    margin-left: 35px;
+    margin-top: 17px;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1);
+    cursor: pointer;
+}
+#services .services_common .services_image img:hover{
+    transform: scale(1.2);
+}
+#services .services_common:hover .services_image img{
+    transform: scale(1.2);
+}
+#services .services_common .services_text{
+    
+}
+#services .services_common .services_text h2{
+    color: #fff;
+}
+#services .services_common .services_text p{
+    color: rgba(255,255,255,.3);
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+#services .services_common{
+    
+}
+#services .services_common .services_image{
+    
+}
+#services .services_common .services_text{
+    
+}
+
+
+/*--------------- End services ------------------*/
+
+
+
+/*--------------- Start our_clients ------------------*/
+
+#our_clients{
+    
+}
+#our_clients h1{
+    margin-top: 50px;
+}
+
+   /*--------------- Start owlCarousel ------------------*/
+  
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.owl-item{
+    height: 170px;
+}
+#owl-demo .item {
+    height: 100%;
+}
+#owl-demo .item img {
+    width: 65%;
+    margin-top: 65px;
+}
+
+   /*--------------- end owlCarousel ------------------*/
+
+
+/*--------------- End our_clients ------------------*/
+
