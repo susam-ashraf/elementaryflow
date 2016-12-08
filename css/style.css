@@ -291,12 +291,12 @@ width: 300px;
             transform: translate(0px,0px);
   }
   40% {
-    -webkit-transform: translate(10px,10px);
-            transform: translate(10px,10px);
+    -webkit-transform: translate(11px,13px);
+            transform: translate(11px,13px);
   }
   70% {
-    -webkit-transform: translate(5px,15px);
-            transform: translate(5px,15px);
+    -webkit-transform: translate(3px,19px);
+            transform: translate(3px,19px);
   }
 }
 @-webkit-keyframes cloud {
