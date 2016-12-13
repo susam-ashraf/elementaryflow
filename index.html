@@ -15,8 +15,10 @@
     
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700,900' rel='stylesheet' type='text/css'>
     <!-- Animate.css library -->
     <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/scrollUpButton.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -26,11 +28,11 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#navbar-example" data-offset="100">
    <!-- start Nav menu -->
    <section id="navigation-menu">
 	  <div class="container-fluid">
-	   <nav class="navbar navbar-default navbar-fixed-top">
+	   <nav id="navbar-example" class="navbar navbar-default navbar-fixed-top">
           <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -48,9 +50,12 @@
 
               <ul class="nav navbar-nav navbar-right text-uppercase">
                 <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#about-us">About</a></li>
-                <li><a href="#Contact-us">contact</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#our_clients">Clients</a></li>
+                <li><a href="#team_members">Team</a></li>
+                <li><a href="#contact">contact</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
@@ -84,7 +89,7 @@
                     <h3 data-animation="animated bounceInRight">
                       Our innovaion, your verge
                     </h3>
-                    <button class="btn btn-primary btn-lg" data-animation="animated zoomInUp">Button</button>
+                    <a href="#about"><img src="images/mouse.png" alt="" data-animation="animated zoomInUp"></a>
                   </div>
                 </div> <!-- /.item -->
 
@@ -97,7 +102,7 @@
                     <h3 data-animation="animated bounceInUp">
                       This is the caption for slide 2
                     </h3>
-                    <button class="btn btn-primary btn-lg" data-animation="animated zoomInRight">Button</button>
+                    <a href="#about"><img src="images/mouse.png" alt="" data-animation="animated zoomInUp"></a>
                   </div>
                 </div><!-- /.item -->
 
@@ -110,7 +115,7 @@
                     <h3 data-animation="animated flipInX">
                       we work for your happines and reliability
                     </h3>
-                    <button class="btn btn-primary btn-lg" data-animation="animated lightSpeedIn">Button</button>
+                    <a href="#portfolio"><img src="images/mouse.png" alt="" data-animation="animated zoomInUp"></a>
                   </div>
                 </div><!-- /.item -->
                 
@@ -120,7 +125,7 @@
                     <h3 data-animation="animated bounceInUp">
                       We work on Java, C#, html, php, css, wordpress
                     </h3>
-                    <button class="btn btn-primary btn-lg" data-animation="animated zoomInRight">Button</button>
+                    <a href="#services"><img src="images/mouse.png" alt="" data-animation="animated zoomInUp"></a>
                   </div>
                 </div><!-- /.item -->
                 
@@ -130,7 +135,7 @@
                    <h3 data-animation="animated bounceInUp">
                       our achivement is to earn satisfaction of our client with our hardwork
                     </h3>
-                    <button class="btn btn-primary btn-lg" data-animation="animated lightSpeedIn">Button</button>
+                    <a href="#our_clients"><img src="images/mouse.png" alt="" data-animation="animated zoomInUp"></a>
                   </div>
                 </div><!-- /.item -->
 
@@ -495,8 +500,163 @@
             </div>
         </div>
     </section><!-- End our_clients -->
+        
+    <!-- Start team_members -->
+    <section id="team_members">
+        <h1 class="text-center">MEET THE TEAM</h1>
+        <p class="text-center">and experiance the world
+        class working environment</p>
+        <div class="container">
+            <div class="row">
+              <div class="col-sm-3">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <a href="#" class="big thumbnail">
+                          <img src="images/susam.jpg" alt="...">
+                          <span class="details_overflow">
+                              <p>SUSAM ASHRAF</p>
+                              <small>WEB DESIGNER</small>
+                          </span>
+                        </a>
+                    </div>
+                    <div class="col-sm-12">
+                        <a href="#" class="small thumbnail">
+                          <img src="images/susam.jpg" alt="...">
+                          <span class="details_overflow">
+                              <p>SUSAM ASHRAF</p>
+                              <small>WEB DESIGNER</small>
+                          </span>
+                        </a>
+                    </div>
+                </div> 
+              </div>
+              <div class="col-sm-3">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <a href="#" class="small thumbnail">
+                          <img src="images/susam.jpg" alt="...">
+                          <span class="details_overflow">
+                              <p>SUSAM ASHRAF</p>
+                              <small>WEB DESIGNER</small>
+                          </span>
+                        </a>
+                    </div>
+                    <div class="col-sm-12">
+                        <a href="#" class="big thumbnail">
+                          <img src="images/susam.jpg" alt="...">
+                          <span class="details_overflow">
+                              <p>SUSAM ASHRAF</p>
+                              <small>WEB DESIGNER</small>
+                          </span>
+                        </a>
+                    </div>
+                </div> 
+              </div>
+              <div class="col-sm-3">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <a href="#" class="big thumbnail">
+                          <img src="images/susam.jpg" alt="...">
+                          <span class="details_overflow">
+                              <p>SUSAM ASHRAF</p>
+                              <small>WEB DESIGNER</small>
+                          </span>
+                        </a>
+                    </div>
+                    <div class="col-sm-12">
+                        <a href="#" class="small thumbnail">
+                          <img src="images/susam.jpg" alt="...">
+                          <span class="details_overflow">
+                              <p>SUSAM ASHRAF</p>
+                              <small>WEB DESIGNER</small>
+                          </span>
+                        </a>
+                    </div>
+                </div> 
+              </div>
+              <div class="col-sm-3">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <a href="#" class="small thumbnail">
+                          <img src="images/susam.jpg" alt="...">
+                          <span class="details_overflow">
+                              <p>SUSAM ASHRAF</p>
+                              <small>WEB DESIGNER</small>
+                          </span>
+                        </a>
+                    </div>
+                    <div class="col-sm-12">
+                        <a href="#" class="big thumbnail">
+                          <img src="images/susam.jpg" alt="...">
+                          <span class="details_overflow">
+                              <p>SUSAM ASHRAF</p>
+                              <small>WEB DESIGNER</small>
+                          </span>
+                        </a>
+                    </div>
+                </div> 
+              </div>
+            </div>
+        </div>
+    </section><!-- End team_members -->
     
+    <!--Start Contact-->
+    <section id="contact">
+        <div id="map"><!--Start Map-->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d228.17889670627468!2d90.40002117709327!3d23.787915641744345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7136a892a7d%3A0x3067f8b3108cadb1!2sChairman+Bari+Bus+Stop!5e0!3m2!1sen!2sbd!4v1481624881741" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div><!--End Map-->
+        <div class="footer"><!--Start Footer-->
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-3">
+                      <div id="footer_left">
+                          <img src="images/logo.png" alt="">
+                          <div class="social">
+                              <ul>
+                                  <li><a href="#"></a></li>
+                                  <li><a href="#"></a></li>
+                                  <li><a href="#"></a></li>
+                                  <li><a href="#"></a></li>
+                                  <li><a href="#"></a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div id="contact_form" class="text-center"><!--Start contact_form-->
+                            <h3>CONTACT US</h3>
+                            <form class="">
+                               <div class="form-group">
+                                 <input type="text" class="form-control" id="exampleInputName2" placeholder="Name">
+                               </div>
+                               <div class="form-group">
+                                 <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email">
+                               </div>
+                               <textarea class="form-control" rows="3" placeholder="Message"></textarea>
+                               <button type="submit" class="btn btn-default text-uppercase">Send Message</button>
+                            </form>
+                      </div>
+                      <div class="copyright">
+                          <p class="text-center">Copyright © 2016. <a href="#">elementaryflow.com</a></p>
+                      </div>
+                  </div>
+                  <div class="col-md-3">
+                      <div id="footer_rigth">
+                          <div class="address">
+                              <ul>
+                                  <li><span></span>20/10, Street : #2,<br>Chairman Bari , Mohakhali</li>
+                                  <li><span></span>+880 1824297068</li>
+                                  <li><span></span><a href="#">elementaryflow@gmail.com</a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+                </div>    
+            </div>
+        </div><!--End Footer-->
+    </section><!--End Contact-->
     
+    <a href="#" class="scrollUpButton"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a>
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -504,6 +664,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/6522a101a7.js"></script>
     <script src="js/owl.carousel.js"></script>
+    <script src="js/scrollUpButton.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
